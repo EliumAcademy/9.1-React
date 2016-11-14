@@ -9,7 +9,7 @@
 ###Exercices:
 In order to succefully compleate all the exercises, your solutions need to match the behavior shown [here](https://eliumacademy.github.io/9.1-react.html) 
 
-1. Create a react component called message that outputs “Hello World”. The solution you write will be displayed with the following render:
+1. Create a react component called Hello that outputs “Hello World”. The solution you write will be displayed with the following render:
     ```jsx
     render(
         <Hello/>,

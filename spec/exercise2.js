@@ -42,9 +42,3 @@ describe( 'Exericise 2',  ()=>{
     })
 
 })
-
-render(
-    <Hello/>,
-    document.getElementById('app')
-)
-

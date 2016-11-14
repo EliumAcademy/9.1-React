@@ -1,4 +1,4 @@
-import Hello      from '../Exercises/1.js'
+import {Hello}      from '../Exercises/1.js'
 import React      from 'react';
 import { render } from 'react-dom'
 import { mount } from 'enzyme';
@@ -16,7 +16,7 @@ describe( 'Exericise 1',  ()=>{
     })
 
     it('should display hello', () => {
-        expect(component.text()).toBe("“Hello World")
+        expect(component.text()).toBe("Hello World")
 
     })
 })

@@ -53,7 +53,8 @@ In order to succefully compleate all the exercises, your solutions need to match
     export {Profile, Detail}
     ```
 
-4. Starting from Exercise 3, add an input field to the detail component that can change the displayed value of the profile detail when the input value is edited
+4. Starting from Exercise 3, add an input field to the detail component that can change the displayed value of the profile detail when the input value is edited.
+    **Notes:** To set a default value for the input field use ```jsx defaultValue``` prop. Checkout what happens if we use the HTML attribute ```jsx value``` instead. 
 
 5. Starting from Exercise 4, add a submit button so that the info will only be updated when the submit button is clicked.
 

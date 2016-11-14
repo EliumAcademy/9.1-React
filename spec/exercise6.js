@@ -1,4 +1,4 @@
-import {ShowList} from '../Exercises/6.js'
+import {ShowList} from '../exercises/6.js'
 import React      from 'react';
 import { render } from 'react-dom'
 import { mount } from 'enzyme';

@@ -1,4 +1,4 @@
-import {Profile, Name, Address, Email} from '../Exercises/2.js'
+import {Profile, Name, Address, Email} from '../exercises/2.js'
 import React      from 'react';
 import { render } from 'react-dom'
 import { mount } from 'enzyme';

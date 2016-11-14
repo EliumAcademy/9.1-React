@@ -1,4 +1,4 @@
-import {Profile, Detail}    from '../Exercises/8.js'
+import {Profile, Detail}    from '../exercises/8.js'
 import React         from 'react';
 import { render }    from 'react-dom'
 import { mount }     from 'enzyme';

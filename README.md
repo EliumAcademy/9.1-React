@@ -54,9 +54,10 @@ In order to succefully compleate all the exercises, your solutions need to match
     ```
 
 4. Starting from Exercise 3, add an input field to the detail component that can change the displayed value of the profile detail when the input value is edited.
-    **Notes:** To set a default value for the input field use ```jsx defaultValue``` prop. Checkout what happens if we use the HTML attribute ```jsx value``` instead. 
+    **Notes:** To set a default value for the input field use ``` defaultValue``` prop. Checkout what happens if we use the HTML attribute ``` value``` instead.
 
-5. Starting from Exercise 4, add a submit button so that the info will only be updated when the submit button is clicked.
+5. Starting from Exercise 4, add a submit button so that the info will only be updated when the submit button is clicked. Use a button tag without type submit and bind the event to and onClick event on the button.
+    **Notes:** the function that is called once the event is triggered (effectively a callback) will recieve one single argument with info about the event that took place. The event.target will point to the element from which the event originated.
 
 6. Create a react component (called ShowInList) that takes an array of elements and displays it values in a list. The solution you write will be displayed with the following render:
     ```jsx
